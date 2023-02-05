@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de imagem</title>
+</head>
+<body>
+    <h1>Dimensionando imagens</h1>
+    <p>Tente abrir esse site em outros sispositivos ou altere o zom da pagina</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexivel">
+        <h1>Vamos aprender a adicionar eudio em html 5</h1>
+        <!--<p><audio src="media/Voz 026 (1).mp4" controls autoplay></audio></p>-->
+        <p>nem todo navegador é compativel com MP3, pra isso tem outros formatos de audio como o wav e o ogg</p>
+        <audio preload="metadata"controls loop>
+            <source src="media/Voz 026 (1).mp4" type="audio/mpeg">
+
+        </audio>
+    </picture>
+</body>
+</html>

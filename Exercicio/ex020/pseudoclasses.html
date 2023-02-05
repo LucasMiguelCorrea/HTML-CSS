@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+div > p {
+            display: none;
+}
+p{
+    height: 100px;
+    width: 100px;
+    
+}
+div{
+   
+    background-color: aquamarine;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(17, 75, 75);
+}
+
+div:hover > p
+{
+    display: block;
+    background-color: red;
+    
+}
+    </style>
+</head>
+<body>
+    <div>01
+        <p>oioioi</p>
+    </div>
+    
+    <br>
+    <div>02</div>
+    <br>
+    <div>03</div>
+</body>
+</html>
